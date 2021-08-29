@@ -3,6 +3,7 @@ $(document).ready(function () {
     $(".navbar-toggler").toggleClass("change");
   });
 
+  $("#myModal").modal('show');
 
   $( '#header .navbar-nav li a' ).on( 'click', function () {
     $( '#header .navbar-nav li' ).find( 'a.nav-active' ).removeClass( 'nav-active' );

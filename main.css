@@ -104,6 +104,27 @@ body {
 
 /*#################banner##############*/
 
+
+
+#myModal img{
+  width: 20rem;
+  height: auto;
+  padding-left: 25%;
+}
+
+#myModal h5{
+  padding-top: 1rem;
+  color: #2288CC;
+}
+
+#myModal h3{
+  color: #e67e22;
+}
+
+#myModal button{
+  color: #2288CC;
+}
+
 .item-1,
 .item-2,
 .item-3 {
