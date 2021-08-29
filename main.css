@@ -291,7 +291,7 @@ body {
   -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
-.about-img__container:hover:before {
+.about-img__container:hover:before, .about-img__container:focus:before {
   top: 0;
   left: 0;
 }
@@ -310,7 +310,7 @@ body {
   border-radius: 1rem;
 }
 
-.img-thumbnail:hover{
+.img-thumbnail:hover, .img-thumbnail:focus{
   box-shadow: 0 4px 8px 0 rgba(230, 126, 34, 0.589), 0 6px 20px 0 rgba(230, 126, 34, 0.603);
 }
 
@@ -323,7 +323,7 @@ body {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-#gallery img:hover{
+#gallery img:hover, #gallery img:focus{
   opacity: 1;
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
@@ -349,7 +349,7 @@ body {
   width: 200px;
 }
 
-#menu a:hover{
+#menu a:hover, #menu a:focus{
   color: #f1fffa;
   background-color: #2288CC;
   border: 2px solid #2288CC;
@@ -419,7 +419,7 @@ body {
   cursor: pointer;
 }
 
-#contact .svg-inline--fa:hover{
+#contact .svg-inline--fa:hover, #contact .svg-inline--fa:focus{
   color: #e67e22;
   font-size: 4rem;
   
@@ -437,7 +437,7 @@ body {
     font-size: 2.5rem;
   }
 
-  #contact .svg-inline--fa:hover{
+  #contact .svg-inline--fa:hover, #contact .svg-inline--fa:focus{
     font-size: 3rem;
   }
 }
