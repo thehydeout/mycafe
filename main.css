@@ -226,6 +226,11 @@ body {
     padding-bottom: 10%;
   }
 
+  #myModal img{
+    width: 15rem;
+    padding-left: 25%;
+  }
+
   #header{
     padding-bottom: 20%;
   }
